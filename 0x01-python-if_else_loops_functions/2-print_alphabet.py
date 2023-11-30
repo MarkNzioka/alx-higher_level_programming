@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+import string
 
-for i in range(97, 123):
-    print(chr(i), end="")
+for letter in string.ascii_lowercase:
+    print(letter, end="")
